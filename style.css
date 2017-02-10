@@ -1,0 +1,179 @@
+
+body {
+	color: #777;
+	font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+	background-image:url(images/cork-wallet.png);
+	color: #777;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	 font-family: 'Georgia', Times, Times New Roman, serif;
+	 color: #4aaaa5; 
+}
+
+.header_content {
+	background-color: #fff;
+	height: 100px;
+	border-bottom: 3px solid #ccc;
+}
+
+.header_elements {
+	padding-left: none;
+	padding-right:none;
+}
+
+.container {
+	max-width:960px;
+}
+
+#logo_container {
+	height:100px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+	background-color: #4aaaa5;
+	color: #fff;
+	text-align:center;
+	line-height:98px;
+	margin-top:0px;
+	font-weight:bold;
+}
+
+#logo h1 {
+	color: #ffffff;
+	line-height: 100px;
+
+}
+
+/*Navigation*/
+
+
+.nav {
+	margin-top:30px;
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+.nav li a:visited {
+	background:none;
+	color:#777;
+}
+
+.nav li a:active {
+	background:none;
+	color:#4aaaa5;
+}
+
+.nav li a:focus {
+	background:none;
+}
+
+.nav li a:hover {
+	color:orange;
+	background:none;
+}
+
+/*Page Content*/
+
+.page_content {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.main {
+	background-color: #fff;
+	padding-bottom: 20px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#about, #portfolio, #contact {
+	border-bottom: 2px solid #ccc;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	font-weight:bold;
+}
+
+#profile_pic {
+	padding-top:5px;
+	padding-right: 20px;
+	max-width: 220px;
+}
+
+.main p {
+	/*margin-top: 20px;*/
+	line-height: 2em;
+}
+
+.sidebar {
+	background-color: #fff;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left:10px;
+}
+
+#connect {
+	font-weight: bold;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom: 2px solid #ccc;
+}
+
+.sidebar img {
+	max-width:60px;
+	padding-bottom:40px;
+}
+
+/*Portfolio Project Thumbnails*/
+
+#portfolio_thumbnails h2, #portfolio_thumbnails h3 {
+	color:#fff;
+	padding-bottom:10px;
+}
+
+#project_1, #project_3, #project_5 {	
+	max-width: 270px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+#project_2, #project_4 {
+	max-width: 270px;
+	padding-bottom:20px;
+}
+
+#img_container_1, #img_container_3, #img_container_5 {
+	position:relative;
+	max-width:270px;		
+}
+
+#img_container_2, #img_container_4 {
+	position:relative;
+	max-width:270px;		
+}
+
+#banner_1 {
+	position:absolute;
+	bottom:10px;
+	height:65px;
+	width:270px;
+	background-color: #4aaaa5;	
+	text-align: center;	
+}
+
+
+footer {
+	bottom:0px;
+	height:100px;
+	background-color:#666;
+	text-align:center;
+	line-height: 100px;
+	border-top: 5px solid #4aaaa5;
+}
